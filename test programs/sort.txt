@@ -1,0 +1,44 @@
+read
+istore 0
+read
+istore 1
+read
+istore 2
+read
+istore 3
+iload 1
+iload 2
+isub
+iflt 18
+iload 1
+istore 4
+iload 2
+istore 1
+iload 4
+istore 2
+iload 2
+iload 3
+isub
+iflt 28
+iload 2
+istore 4
+iload 3
+istore 2
+iload 4
+istore 3
+iload 1
+iload 2
+isub
+iflt 38
+iload 1
+istore 4
+iload 2
+istore 1
+iload 4
+istore 2
+iload 1
+print
+iload 2
+print
+iload 3
+print
